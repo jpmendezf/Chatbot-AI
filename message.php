@@ -1,5 +1,6 @@
 <?php
 // Conectandose a la base de datos
+// Encenderlo en xampp
 $conn = mysqli_connect("localhost", "root", "", "bot") or die("Database Error");
 
 // Consiguiendo el mesaje por ajax

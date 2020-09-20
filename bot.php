@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="es-ES">
 <!-- 
-localhost/phpmyadmin 
+https://localhost/phpmyadmin 
 y encender el phpmyadmin en xampp
 -->
 
