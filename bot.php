@@ -25,20 +25,21 @@ y encender el phpmyadmin en xampp
                     <p>Hola, ¿En que pueda ayudarte?</p>
                 </div>
             </div>
+            <div style="margin-left: 40px; margin-top: 10px;" class="bot-inbox inbox">
+                <div class="msg-header">
+                    <p>Puedes escribir <strong>help o ayuda</strong></p>
+                </div>
+            </div>
         </div>
         <div class="typing-field">
-            <form class="input-data">
-                <input id="data" type="text" placeholder="Escribe algo..">
-                <button onclick="deafolt()" id="send-btn">Enviar</button>
-            </form>
+            <div class="input-data">
+                <input id="data" type="text" placeholder="Escribe algo...">
+                <button id="send-btn">Enviar</button>
+            </div>
         </div>
     </div>
 
     <script>
-
-        function deafolt(e) {
-            e.preventDefault
-        }
 
         $(document).ready(function(){
             $("#send-btn").on("click", function(){

@@ -12,3 +12,4 @@
 
  - hola|ola|hey
  - Quien es tu creador|Quien es tu creador?|¿Quien es tu creador?
+ -  help|ayuda|necesito ayuda
